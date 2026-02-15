@@ -19,5 +19,26 @@
     "react-dom": "^18.2.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.7",
+    "@mui/styled-engine": "^7.3.7",
+    "@reduxjs/toolkit": "^2.11.2",
+    "@tanstack/react-query": "^5.90.20",
+    "axios": "^1.13.4",
+    "firebase": "^12.8.0",
+    "highlight.js": "^11.11.1",
+    "react-hook-form": "^7.71.1",
+    "react-icons": "^5.5.0",
+    "react-intersection-observer": "^10.0.2",
+    "react-markdown": "^10.1.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.22.3",
+    "react-toastify": "^11.0.5",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.1",
+    "sass": "^1.97.3"
   }
 }

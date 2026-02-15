@@ -1,0 +1,99 @@
+.home {
+  width: 100%;
+  font-family: Poppins, sans-serif;
+
+}
+
+.sideBar {
+  min-height: calc(100vh - 60px);
+  background: #212122;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+contentHome {
+  height: calc(100vh - 90px);
+  overflow: hidden;
+  background: black;
+  border-radius: 10px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+.sideBar .list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+      
+.sideBar .list .listItem{
+  display: flex;
+  
+  
+
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.listItem:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  background: #4169E1;
+  color: white;
+}
+.listItemBlue{
+  display: flex;
+  background: #4169E1;
+  color: white;
+
+
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+.listItem .link{
+  font-size: 20px;
+  margin-left: 10px;
+  transition: 0.5s;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+
+}
+.userInfo {
+  margin-top: auto; 
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.userInfo:hover {
+  background: #2c2c2c;
+  border-radius: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

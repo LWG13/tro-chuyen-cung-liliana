@@ -1,0 +1,229 @@
+.setting {
+  display: flex;
+  flex-direction: column;
+  background: #212122;
+  border-radius: 10px;
+  height: 100vh;
+  .list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+
+      
+  .listItem{
+  display: flex;
+  
+  
+
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: 400;
+  text-decoration: none;
+
+
+  .link{
+  font-size: 24px;
+  margin-left: 10px;
+  transition: 0.5s;
+  font-weight: 500;
+  text-decoration: none;
+  
+  color: white;
+  }
+  }
+    .listItem:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  background: #4169E1;
+  color: white;
+    }
+  }
+}
+.account {
+  height: 100vh;
+  padding: 10px;
+  background: #212122;
+  color: white;
+  label {
+    font-size: 20px;
+  }
+ .input-box{
+  position: relative;
+  width: 98%;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  color: white;
+  padding-left: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.input-box input::placeholder{
+  color: white;
+  padding-left: 10px;
+}
+.input-box .icon{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+ form{
+  background: #212122;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+  .avatar{
+   margin: 0 auto;
+   width: 130px;
+   height: 130px;
+  }
+  .upload-btn {
+    width: 200px;
+    height: 100px;
+    background: #212122;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s;
+    margin: 0 auto;
+
+  }
+
+  .upload-btn:hover {
+    background: #3a3a3a;
+    transform: scale(1.05);
+  }
+
+  .button1 {
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button1:hover {
+    background: #3a3a3a;
+  }
+
+  input[type="file"] {
+    display: none;
+
+}
+  .btn {
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+}
+.background {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  color: white;
+  background: #1e1e1e;
+  min-height: 100vh;
+
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .MuiGrid-container {
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .backgroundImg {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2a2a2a;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+    border: 2px solid transparent;
+
+    &:hover {
+      background: #333;
+      transform: translateY(-4px);
+      border-color: #4CAF50;
+    }
+
+    .default {
+      width: 100%;
+      height: 150px;
+      border-radius: 8px;
+      background: #000;
+      border: 2px solid #444;
+    }
+
+    .backImg {
+
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #444;
+      transition: 0.2s;
+
+    }
+
+    &:hover .backImg {
+      border-color: #4CAF50;
+    }
+
+  }
+
+  .btnBackground {
+
+    margin-top: 10px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    background: #4CAF50;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 100%;
+
+    &:hover {
+      background: #45a049;
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+
+  }
+
+}

@@ -1,0 +1,185 @@
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+   background: #343434;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+/* NAVIGATION */
+.navigation {
+  height: 70px;
+  background: #343434;
+  display: flex;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  z-index: 200;
+}
+
+
+.content {
+  margin-top: 70px;
+  min-height: calc(100vh - 70px);
+  width: 100%;
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 8px;
+  font-family: Poppins, sans-serif;
+ 
+
+}
+.sidenav{
+  width: 70%;
+  background: #343434;
+  height: 95%;
+  padding: 40px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  transition: 0.4s;
+  transform: translateX(-200%);
+  opacity: 1;
+  z-index: 10;
+  font-family: "Montserrat", sans-serif !important;
+
+}
+.sidenav.active{
+  transform: translateY(-0%);
+  transform: translateX(-5%);
+  transition: 0.4s;
+  obacity: 1
+}
+.sideBar .list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+.sideBar .list .listItem{
+  display: flex;
+
+
+
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.listItem:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  background: #4169E1;
+  color: white;
+}
+.listItemBlue{
+  display: flex;
+  background: #4169E1;
+  color: white;
+
+
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.listItem .link{
+  font-size: 24px;
+  margin-left: 10px;
+  transition: 0.5s;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+
+}
+ul{
+  padding: 0;
+}
+li {
+  list-style-type:none;
+}
+.logo{
+ width: 110px;
+}
+li a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  padding: 15px 0px;
+  border-radius: 6px;
+  font-family: "Montserrat", sans-serif !important;
+}
+.user{
+  padding: 10px;
+}
+.user img {
+  width: 30px;
+}
+.userInfo {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  font-size: 15px;
+  font-weight: 500;
+}
+.n{
+  display: flex;
+}
+.n span { font-size: 50px;
+ margin-left: 50%;
+}
+@media only screen and (min-width: 800px) {
+  .menu {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .liliana {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1250px) { 
+ .content {
+   width: 1250px;
+ }
+
+.navigation {
+  width: 1250px;
+}
+}
