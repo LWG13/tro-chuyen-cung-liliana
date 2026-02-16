@@ -69,7 +69,7 @@ useEffect(() => {
   // send
   const handleSend = () => {
     if (!text && !image) return;
-
+    if(text.length > 1500) return alert("Tin nhắn không được quá 1500 ký tự")
     sendMutation.mutate({
       message: text,
       imageUrl: image
