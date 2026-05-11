@@ -228,7 +228,10 @@
       color: white;
       display: flex;
       flex-direction: column;
-
+      &.assistant {
+         max-width: 95%;
+      }
+ 
       .messageText {
         color: white;
         word-break: break-word;
