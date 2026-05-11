@@ -90,7 +90,7 @@ export default function Message({ msg }) {
         <img src={liliana} className="avatar" />
       )}
 
-      <div className="bubble">
+      <div className={`bubble ${isUser ? "" : "assistant"}`}>
 
         {msg.imageUrl && (
           <img
